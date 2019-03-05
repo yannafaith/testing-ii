@@ -5,7 +5,8 @@ function Display(props) {
   return (
     <>
       <h3>Player Stats</h3>
-     Balls: {props.balls}, Strikes: {props.strikes}
+      <p title='strikes'> Strikes: {props.strikes}</p>
+      <p title='balls'> Balls: {props.balls}</p>
     </>
   );
 }
