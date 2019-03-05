@@ -5,7 +5,7 @@ function Display(props) {
   return (
     <>
       <h3>Player Stats</h3>
-      {props.hits}, {props.fouls}, {props.strikes}
+     Balls: {props.balls}, Strikes: {props.strikes}
     </>
   );
 }
